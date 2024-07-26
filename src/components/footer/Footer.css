@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    background:#e0dcf9;
+    height: 150px;
+}
+.logo{
+    width: 25%;
+}
+.img-logo{
+    display: flex;
+}
+.img-logo img{
+    width: 6rem;
+  
+}
+.quick_link_items{
+    cursor: pointer;
+    padding: 3px;
+    transition: 1s;
+}
+.quick_link_items:hover{
+    color: var(--primary-colore);
+}
+.company_items{
+    cursor: pointer;  
+    padding: 3px;
+    transition: 1s;
+
+}
+.company_items:hover{
+    color: var(--primary-colore);
+} 
+
